@@ -5,7 +5,7 @@ const router = express.Router();
 
 // get random book from database using book_id
 // router.get('/', bookQuoteRoute);
-router.get('/:id', aggregateCollections);
+router.get('/', aggregateCollections);
 // router.get('/:id', bookIdQuoteRoute);
 // router.get('/random', bookQuoteRandomRoute);
 
